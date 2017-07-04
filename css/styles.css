@@ -26,6 +26,10 @@ hr{
 
 
 /*RESUME*/
+.dropdown{
+position: relative;
+}
+
 .jobDetails{
     font-size: 110%;
     line-height: 20%;
@@ -105,6 +109,10 @@ margin-top:0px;
 background-color:#eaddf0;
 }
 
+.seedkit-intro{
+background-color:#bee3b6;
+}
+
 .ref-button{
 width:900px;
 }
@@ -113,12 +121,33 @@ width:900px;
 background-color:#00B0F0;
 }
 
+.neuroClub{
+background-color:#bee6ec;
+}
+
+
+
 #curriculum-button{
 margin-left:400px;
 }
 
 .outreach{
 background-color:#ade8ea;
+}
+
+.custom{
+width: 78px;
+text-align:center;
+}
+
+
+.row.match-my-cols {
+    overflow: hidden; 
+}
+
+.row.match-my-cols [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
 }
 
 
@@ -147,6 +176,7 @@ footer{
     text-align: center;
     color: gray;
     font-size: 10px;
+    margin-left:50px;
 }
 
 #contact{

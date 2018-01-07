@@ -34,14 +34,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link href="http://fonts.googleapis.com/css?family=Raleway:200,400,800" rel="stylesheet" type="text/css"><link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Abel&amp;subset=latin" media="all">
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		
+
 		
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 
 <!-- start menu -->
-  
+<style>
+.accordion {
+    background-color: #ffffff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+</style>
+
 </head>
 <body>
 
@@ -50,9 +74,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<a href="index.html">ABOUT</a>
 				<a href="resume2.html">RESUME</a>
 				<a href="projects.html">PROJECTS</a>
-				<a href="research.html">RESEARCH</a>
 				<a href="outreach.html">OUTREACH</a>
-				<a href="index.htm#contact">CONTACT</a>
 				</nav>
 </div>
 
@@ -85,7 +107,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 <div class="content">
 		 <div class="details_header">
 			 <ul>
-				 <li><p class="main" ><span class="glyphicon glyphicon-file" aria-hidden="true"></span><a href="images/isabelresume.pdf">PDF version</a></p></li>
+				 <li><p class="main" ><span class="glyphicon glyphicon-file" aria-hidden="true"></span><a href="images/cv.pdf">PDF version</a></p></li>
 				 <li><a href="mailto:idalessa@wellesley.edu"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Email me</a></li>
 				 <script>
 						$(document).ready(function() {
@@ -113,10 +135,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 <h6>NEUROSCIENCE,COMPUTER SCIENCE</h6>
 				 <h6> BA Degree- Anticipated Spring, 2018</h6>
 				 <h6> Cross-Registered at MIT</p>
-			 
-    <div data-role="collapsible">
-	<h3>I'm a header</h3>
-      <p>BIOLOGY/CHEMISTRY/PHYSICS</p>
+				 
+				 
+				 
+   <button class="accordion" style="font-size:110;"><u><b>Courses </b></u></button>
+<div class="panel">
+<p>BIOLOGY/CHEMISTRY/PHYSICS</p>
                             <p>BISC 112: Cellular and Molecular Biology w/ Lab</p>
                         	<p>BISC 113: Organismal Biology w/Lab</p>
                         	<p>BISC 219: Genetics w/Lab</p>
@@ -149,8 +173,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <p>CS 234: Data Analytics and Visualization</p>
                         <p>CS 332: Visual Processing in Computer and Biological Vision Systems</p>
                         <p>CS 349: Machine Learning</p>
+</div>
+			 
     
-  </div>
   </div>	
    </div>	 
 			 
@@ -159,28 +184,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 
 			 
 			 <div class="company_details">
-				 <h4>Wasserman Lab: Undergraduate Research Assistant<span>AUG 2016-PRESENT</span></h4>
-				 <h6>WELLESLEY COLLEGE NEUROSCIENCE DEPARTMENT, WELLESLEY, MA</h6>
+				 <h4>Wellesley College Neuroscience Department<span> AUG 2016-PRESENT</span></h4>
+				 <h6>Research Assistant, Lab of Dr. Sara Wasserman</h6>
 				 <p>Project: Sensory integration of thermal, visual, and olfactory stimuli by Drosophila inflight </p>
-				 <p>Project: Optogeneticically Controlled Odor Plume Tracking inflight</p>
-				 <p>Principal Investigator:Sara Wasserman, PhD</p>
-				 <p class="cmpny1">Skills:Drosophila genetics,electronics, MATLAB,optogenetics</p>
+				 <p class="cmpny1">Skills:Drosophila genetics,behavioral experiments,optogenetics,rig design/basic electrical engineering</p>
 			 </div>
 			 
 			 <div class="company_details">
-				 <h4>Summer Research Fellow-Quintana Lab<span>JUN 2016- AUG 2016</span></h4>
-				 <h6>HARVARD MEDICAL SCHOOL/BRIGHAM AND WOMEN'S HOSPITAL, BOSTON, MA</h6>
+				 <h4>Stanford University<span>Jun 2017-Aug 2017</span></h4>
+				 <h6>Amgen Scholar, Summer Research Program, Lab of Dr. Miriam B.Goodman</h6>
+				 <p>Project: Pharmacology of mechanosensitive DEG/ENaC/ASIC ion channel subunits expressed in Xenopus oocytes </p>
+				 <p class="cmpny1">Skills:two-electrode voltage-clamp recordings, molecular biology, data 
+				 analysis with Matlab</p>
+			 </div>
+			 
+			 <div class="company_details">
+				 <h4>Harvard Medical School/Brigham and Women's Hospital<span>JUN 2016- AUG 2016</span></h4>
+				 <h6>Summer Research Fellow, Lab of Dr. Francisco Quintana</h6>
 				 <p>Project:The role of Basigin as a regulator of astrocyte function in multiple sclerosis and experimental autoimmune encephalomyelitis</p>
-				 <p>Principal Investigator:Francisco Quintana, PhD</p>
 				 <p class="cmpny1">Skills:Cell culture, plasmid construction/cloning, transduction,viral transfection ,qPCR,gel electrophoresis,EAE induction in mice,cell sorting</p>
 			 </div>
 			 
 			 <div class="company_details">
-				 <h4>Weist Lab: Undergraduate Research Assistant<span>JAN 2016- JAN 2017</span></h4>
-				 <h6>WELLESLEY COLLEGE NEUROSCIENCE DEPARTMENT, WELLESLEY, MA</h6>
+				 <h4>Wellesley College Neuroscience Department<span>JAN 2016- JAN 2017</span></h4>
+				 <h6>Research Assistant, Lab of Dr. Michael Wiest</h6>
 				 <p>Project:Role of medio-dorsal frontal and posterior parietal neurons during auditory detection performance in rats</p>
-				 <p>Principal Investigator: Michael Wiest, PhD.</p>
-				 <p class="cmpny1">Skills:computational neuroscience,modeling(MATLAB),electrophysiology,animal handling,behavioral assays</p>
+				 <p class="cmpny1">Skills: multi-electrode recordings,animal handling,behavioral assays,rat surgery</p>
 			 </div>
 			 
 			 <div class="company_details">
@@ -188,7 +217,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 <h6>PRINCETON NEUROSCIENCE INSTITUTE, PRINCETON, NJ</h6>
 				 <p>Project: The role of acoustic signal recognition in the control of Drosophila female behavior</p>
 				 <p>Principal Investigator: Mala Murthy, PhD</p>
-				 <p class="cmpny1">Skills: computational neuroscience, modeling(MATLAB),data analysis, electrophysiology,optogenetics,Drosophila genetics</p>
+				 <p class="cmpny1">Skills: electrophysiology,optogenetics,Drosophila genetics,behavioral assays</p>
 			 </div>
 			 
 		 </div> 
@@ -315,5 +344,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 
 	 </div>
 </div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
 </body>
 </html>

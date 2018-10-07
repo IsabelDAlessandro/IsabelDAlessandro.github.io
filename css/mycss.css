@@ -83,7 +83,11 @@ a: hover {
 
 								/*ABOUT ME*/
 #about-me {
-	max-width: 700px;
+	text-align:center;
+/* 	max-width: 700px; */
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
 	}
 
 
@@ -248,7 +252,11 @@ h4 {
 
 								/*CONTACT*/
 #contact{
-max-width: 700px;
+	text-align:center;
+/* 	max-width: 700px; */
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
 line-height:20%;
 }
 

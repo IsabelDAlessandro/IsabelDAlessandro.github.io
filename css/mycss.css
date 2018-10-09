@@ -84,8 +84,8 @@ a: hover {
 								/*ABOUT ME*/
 #about-me {
 	text-align:center;
-/* 	max-width: 700px; */
-	width:700px;
+	max-width: 700px;
+	/* width:700px; */
 	margin-left:auto;
 	margin-right:auto;
 	}
@@ -253,8 +253,8 @@ h4 {
 								/*CONTACT*/
 #contact{
 	text-align:center;
-/* 	max-width: 700px; */
-	width:700px;
+	max-width: 700px;
+	/* width:700px; */
 	margin-left:auto;
 	margin-right:auto;
 line-height:20%;
@@ -304,8 +304,6 @@ line-height:20%;
 
 @media only screen and (max-width : 768px) {
 	.demo-1 .main-title{
-		font-size: 3em;
+		font-size: 2em;
 	}
 }
-
-

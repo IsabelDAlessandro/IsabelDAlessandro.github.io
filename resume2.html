@@ -40,31 +40,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 
-<!-- start menu -->
-<style>
-.accordion {
-    background-color: #ffffff;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-}
-
-.active, .accordion:hover {
-    background-color: #ccc;
-}
-
-.panel {
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-}
-</style>
 
 </head>
 <body>
@@ -72,7 +47,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="navheader">
 				<nav>
 				<a href="index.html">ABOUT</a>
-				<a href="resume2.html">RESUME</a>
+				<a href="resume2.html">CV</a>
 				<a href="projects.html">PROJECTS</a>
 				<a href="outreach.html">OUTREACH</a>
 				</nav>
@@ -80,50 +55,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <!-- header -->
 
-<div class="col-sm-3 col-md-2 sidebar">
-		 <div class="sidebar_top">
-			 <img src="images/idicon.png" alt=""/>
-		 </div>
-		<div class="details">
-			 <h3>PHONE</h3>
-			 <p>978 884 7725</p>
-			 <h3>EMAIL</h3>
-			 <p><a href="mailto:idalessa@wellesley.edu">idalessa@wellesley.edu</a></p>
 
-
-		</div>
-		<div class="clearfix"></div>
-</div>
 <!---->
 <link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
 <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
 
-<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-	 <div class="content">
+<!--<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">-->
+	 <div class="content" style="background:white;">
 		 <div class="details_header">
-			 <ul>
-				 <li><p class="main" ><span class="glyphicon glyphicon-file" aria-hidden="true"></span><a href="images/ID_CV.pdf">PDF version</a></p></li>
-				 <li><a href="mailto:idalessa@wellesley.edu"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Email me</a></li>
-				 <script>
-						$(document).ready(function() {
-						$('.popup-with-zoom-anim').magnificPopup({
-							type: 'inline',
-							fixedContentPos: false,
-							fixedBgPos: true,
-							overflowY: 'auto',
-							closeBtnInside: true,
-							preloader: false,
-							midClick: true,
-							removalDelay: 300,
-							mainClass: 'my-mfp-zoom-in'
-						});
-
-						});
-				</script>
-			 </ul>
-		 </div>
+		<p class="main" ><span class="glyphicon glyphicon-file" aria-hidden="true"></span><a href="images/ID_CV.pdf" style="font-family:'Ubuntu';">PDF version</a></p>
+		 </div><!--details header-->
 		 <div class="company">
-		 <h1 style="font-family:'Raleway';margin-left:4%;">ISABEL D'ALESSANDRO</h1>
+		 <h1 style="font-family:'Ubuntu';margin-left:4%;">Isabel D'Alessandro</h1>
 			 <h3 class="clr1">Education</h3>
 			 <div class="company_details">
 				 <h4>Wellesley College <span>SEP 2014 - JUN 2018</span></h4>
@@ -131,51 +74,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 <h6>Major in Neuroscience</h6>
 				 <h6>Minor in Computer Science</h6>
 
-
-
-   <button class="accordion" style="font-size:110;"><u><b>Courses (+) </b></u></button>
-<div class="panel">
-<p>BIOLOGY/CHEMISTRY/PHYSICS</p>
-                            <p>BISC 112: Cellular and Molecular Biology w/ Lab</p>
-                        	<p>BISC 113: Organismal Biology w/Lab</p>
-                        	<p>BISC 219: Genetics w/Lab</p>
-                        	<p>CHEM 105: Fundamentals of Chemistry w/ Lab</p>
-                        	<p>CHEM 205: Chemical Analysis and Equilibrium w/Lab</p>
-                        	<p>CHEM 211: Organic Chemistry I w/Lab</p>
-                        	<p>PHYS 104: Fundamentals of Mechanics w/Lab</p>
-                        	<p>PHYS 106: Fundamentals of Electricity, Magnetism, and Optics w/Lab</p>
-
-
-    <p> ----- </p>
-    <p>NEUROSCIENCE</p>
-        				<p>NEUR 100:Introduction to Neuroscience w/ Practicum</p>
-                        <p>PSYC 217: Cognition</p>
-                        <p>NEUR 200: Neurons, Networks, and Behavior w/Lab</p>
-                        <p>NEUR 250G: Behavioral Neurophysiology</p>
-                        <p>NEUR 335: Computational Neuroscience w/Lab(MATLAB)</p>
-    					<p>NEUR 333: Neuroengineering</p>
-    					<p>9.24 (MIT): Disorders and Diseases of the Nervous System</p>
-    					<p>NEUR 300: Capstone Seminar in Neuroscience</p>
-							<p>NEUR/BISC 305: Neurodevelopment</p>
-							<p>NEUR 310: Neuroethology of Decision Making w/Lab </p>
-    <p> ----- </p>
-    <p>COMPUTER SCIENCE/MATH</p>
-    	 				<p>MATH 115: Calculus I</p>
-                        <p>MATH 116: Calculus II</p>
-                        <p>PSYC 205: Statistics w/ Lab</p>
-                        <p>MATH 225: Combinatorics and Graph Theory</p>
-                        <p>CS 111: Computer Science and Problem Solving(Python)</p>
-                        <p>CS 230: Data Structures w/ Lab(Java)</p>
-                        <p>CS 231: Fundamental Algorithms</p>
-                        <p>CS 234: Data Analytics and Visualization</p>
-                        <p>CS 332: Visual Processing in Computer and Biological Vision Systems</p>
-                        <p>CS 349: Machine Learning</p>
-												<p>CS 304: Databases with Web Interfaces </p>
-</div>
-
-
-  </div>
-   </div>
+  		</div><!--company_details-->
+   </div><!--class=company-->
 
 	<div class="workexperience">
 			 <h3 class="clr3">Research Experience</h3>
@@ -222,7 +122,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 <p class="cmpny1">Skills: Drosophila genetics,behavioral assays, data analysis</p>
 			 </div>
 
-		 </div>
+		 </div><!--work experience-->
 
 
 		 <div class="education">
@@ -260,7 +160,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 </div>
 
 
-		</div>
+		</div><!--education-->
 
 
 		<div class="company">
@@ -285,7 +185,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 </div>
 
 
-		</div>
+		</div><!--company-->
 
 
 		<div class="company">
@@ -311,7 +211,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 <div class="company_details">
 			 	 <h5>Wellesley College First Year Chemistry Award <span>2015</span></h5>
 			 </div>
-		</div>
+		</div><!--company-->
 
 
 
@@ -332,20 +232,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li>SQL</li>
 						<li>Unix/Command Line</li>
 					 </ul>
-				 </div>
+				 </div><!--skill1-->
 
 				 <div class="skill2">
 					 <h4>Languages</h4>
 					 <ul>
 						<li>Spanish (Proficient)</li>
 					 </ul>
-				 </div>
+				 </div><!--skill2-->
 				 <div class="clearfix"></div>
-			 </div>
-		 </div>
+			 </div><!--class=skill_list-->
+		 </div><!--class-skills-->
 
-	 </div>
-</div>
+	 </div><!--class=content-->
+<!--</div>-->      <!--class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main"-->
 <script>
 var acc = document.getElementsByClassName("accordion");
 var i;

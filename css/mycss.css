@@ -17,7 +17,6 @@ h2, h3, h4, h5, nav, #copyright {
 	font-weight: 900;
 	font-family: 'Abel', sans-serif;
 
-	text-transform: uppercase;
 }
 nav{
 	padding: 20px;
@@ -27,14 +26,13 @@ nav{
 nav a{
 	color: #062447;/*dark blue*/
 	font-size: 20pt;
-	font-family: 'Raleway', Calibri, Arial, sans-serif;
+	font-family: 'Abel', Calibri, Arial, sans-serif;
 	margin-right: 5%;
 
 }
 
 .navheader{
-background-color:#9ce3e3;/*light blue*/
-
+	background-color:#33cccc;/*light blue*/
 }
 
 
@@ -50,7 +48,7 @@ h3 {
 	text-align: center;
 }
 
-a,div {
+div {
 	text-align: left;
 	font-family: 'Abel', sans-serif;
 	font-size: 14pt;
@@ -66,7 +64,6 @@ p{
 
 a {
 	text-decoration: none;
-	text-transform: uppercase;
 	color: #062447;/*dark blue*/
 }
 
@@ -286,10 +283,32 @@ line-height:20%;
 	padding: 0;
 	color: #f9f1e9;/*off-white- main name*/
 	text-align: center;
-	top: 50%;
+	top: 30%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
+}
+
+.header-text{
+	color:white;
+	position:absolute;
+	margin:0;
+	padding:0;
+	top: 50%;
+	left: 20%;
+	right:20%;
+	bottom:10%;
+	text-align: center;
+	font-size: 20px;
+}
+
+.contact-me{
+	position:absolute;
+	margin:10;
+	padding:10;
+	top:90%;
+	left:5%;
+	
 }
 
 .demo-1 .main-title {

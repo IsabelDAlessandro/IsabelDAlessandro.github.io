@@ -179,6 +179,7 @@ address span{
 	font-weight:400;
 	margin-bottom:1.3em;
 	font-size:0.9em;
+	font-family: 'Ubuntu', sans-serif;
 }
 .company_details p,.skill_info p,.education_details p{
 	color:#999;
